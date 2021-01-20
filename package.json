@@ -1,0 +1,22 @@
+{
+  "name": "ungrund",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@taquito/signer": "^7.1.0-beta.0",
+    "@taquito/taquito": "^7.1.0-beta.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.20",
+    "serverless-dotenv-plugin": "^3.1.0",
+    "serverless-http": "^2.6.1",
+    "serverless-plugin-include-dependencies": "^4.1.0"
+  }
+}
