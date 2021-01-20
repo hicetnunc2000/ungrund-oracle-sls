@@ -5,11 +5,11 @@ const { InMemorySigner } = require('@taquito/signer')
 const axios = require('axios')
 const _ = require('lodash')
 
-const ungrund = 'KT1UmGvGnewwhrZGKkfJ9cZKdjcwz5rsDpg6'
-const Tezos = new TezosToolkit('https://api.tez.ie/rpc/delphinet')
+const ungrund = proccess.env.KT_ORACLE
+const Tezos = new TezosToolkit(process.env.TZ_ENDPOINT)
 
 Tezos.setProvider({
-	signer : new InMemorySigner(process.env.SK)
+	signer : new InMemorySigner(process.env.TZ_SK)
 })
 
 // FUNCTIONS
