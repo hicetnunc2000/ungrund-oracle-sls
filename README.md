@@ -2,7 +2,7 @@
 ```
 such service intends to feed data by decentralized means on chain for smart contracts usage. 
 v1 presents a simple structure for requesting natural numbers from a known API, 
-being possible to use to get market prices, randomness, and other data. 
+being possible to use to get market prices, randomness, and other types of data. 
 ungrund oracle reads for state changes on chain making use of block explorers 
 responding to smart contract's data requests.
 it's intended to implement support for string and bytes response types, 
